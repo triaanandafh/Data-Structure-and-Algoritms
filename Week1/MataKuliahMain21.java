@@ -12,5 +12,16 @@ public class MataKuliahMain21 {
         daspro.tambahJam(5);
         daspro.kurangJam(1);
         daspro.tampilInformasi();
+
+        MataKuliah21 pkn = new MataKuliah21("LAO134", "Pendidikan Kewarganegaraan", 2, 7) ;
+
+        
+        pkn.tampilInformasi();
+        pkn.ubahSKS(6);
+        pkn.tambahJam(3);
+        pkn.kurangJam(2);
+        pkn.tampilInformasi();
+
+        
     }
 }

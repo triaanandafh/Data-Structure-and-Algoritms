@@ -25,10 +25,21 @@ public class Dosen21 {
 
     void hitungMasaKerja(int tahunsekarang) {
         int masaKerja = tahunsekarang - tahunBergabung;
-        System.out.println("Masa Kerja: " + masaKerja + " tahun");
+        // System.out.println("Masa Kerja: " + masaKerja + " tahun");
     }
 
     void ubahKeahlian(String keahlianBaru) {
         bidangKeahlian = keahlianBaru;
     }
+
+    public Dosen21() {
+
+    }   
+   
+    public Dosen21(String idDosen, String nama, boolean statusAktif, int tahunBergabung, String bidangKeahlian) {
+       this.idDosen = idDosen;
+       this.nama = nama;
+       this.statusAktif = statusAktif;
+       this.tahunBergabung = tahunBergabung;
+   }
 }

@@ -15,5 +15,9 @@ public class DosenMain21 {
     Luluk.ubahKeahlian("Basis data");
     Luluk.tampilInformasi();
 
+    Dosen21 Eko = new Dosen21("12345634", "Eko Sutono", true, 2019, "Artificial Intelligent") ;
+    Eko.tampilInformasi();
+
+
  }   
 }
